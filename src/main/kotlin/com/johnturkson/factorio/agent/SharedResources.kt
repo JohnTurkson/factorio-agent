@@ -11,6 +11,7 @@ object SharedResources {
         ignoreUnknownKeys = true
     }
     val client = HttpClient(CIO) {
+        followRedirects = false
         install(ContentNegotiation) {
             json(serializer)
         }

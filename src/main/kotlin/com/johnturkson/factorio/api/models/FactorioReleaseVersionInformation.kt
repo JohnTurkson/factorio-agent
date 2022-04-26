@@ -1,4 +1,4 @@
-package com.johnturkson.factorio.models
+package com.johnturkson.factorio.api.models
 
 import kotlinx.serialization.Serializable
 

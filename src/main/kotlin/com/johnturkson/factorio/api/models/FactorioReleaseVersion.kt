@@ -1,4 +1,4 @@
-import com.johnturkson.factorio.models.FactorioReleaseVersionInformation
+import com.johnturkson.factorio.api.models.FactorioReleaseVersionInformation
 import kotlinx.serialization.Serializable
 
 @Serializable
